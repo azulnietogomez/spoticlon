@@ -1,0 +1,27 @@
+:root {
+    /*Colors*/
+    --green: #1ED760;
+    --pink: #993399;
+    --blue: #2941AB;
+    --grey: #919496;
+    --white: #FFF;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
