@@ -61,13 +61,13 @@ main {
 
 .plans-wrapper {
     width: 100%;
-    height: 100vh;
     padding: 35px 15px;
 }
 
 
 
 .premium-benefits {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,18 +76,36 @@ main {
 
 
 .benefit {
+    display: flex;
     min-width: 360px;
     max-width: 400px;
     height: 142px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 20px;
 }
 
 
 .benefit-icon {
-    width: 116px;
-    height: 100%;
-    
+    width: 28%;
+    height: 100%; 
+}
 
+
+.benefit-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+.chose-plan-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 35px 15px;
+    
+    
 }

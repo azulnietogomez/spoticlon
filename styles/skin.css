@@ -97,11 +97,51 @@ main {
 .premium-benefits-title {
     font-size: 2.8rem;
     font-weight: bolder;
+    margin-bottom: 40px;
 }
 
 
 
 .benefit-icon {
-    background-image: url();
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+
+.benefit-icon__music {
+    background-image: url(../assets/music-icon.png);
+}
+
+
+.benefit-icon__ads {
+    background-image: url(../assets/phone-ads.icon.png);
+}
+
+
+.benefit-icon__devices {
+    background-image: url(../assets/music-varius-icon.png);
+}
+
+
+.benefit-icon__next-song {
+    background-image: url(../assets/phone-play-icon.png);
+}
+
+
+.benefit-title {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    margin-bottom: 10px;
+}
+
+
+.benefit-description {
+    font-size: 1.6rem;
+}
+
+
+.chose-plan-wrapper {
+    color: var(--dark);
+    background-color: var(--light-grey);
+}
