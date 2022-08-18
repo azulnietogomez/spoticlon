@@ -10,6 +10,80 @@ header {
     background-repeat: no-repeat;
     filter: invert(100%);
     -webkit-filter: invert(100%);
-    outline: none; 
+    outline: none;
+    border: none; 
     cursor: pointer;
+}
+
+
+main {
+    background-color: var(--pink);
+}
+
+
+.plan-title-main {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+
+.main-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.limit-date-promo {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.login-btn {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+
+.show-plans-btn {
+    background-color: transparent;
+    color: var(--white);
+    border: solid 2px var(--white);
+    margin-bottom: 50px;
+}
+
+
+.terms-legal {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+
+.terms-legal a {
+    color: var(--white);
+    text-decoration: underline;
 }

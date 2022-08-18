@@ -6,7 +6,7 @@
     --shiny-blue: #0000EE;
     --grey: #919496;
     --mid-grey: #222326;
-    --dark-grey: #000000BF;
+    --dark-grey: #191414;
     --dark: #000;
     --white: #FFF;
 }
@@ -24,8 +24,13 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    color: var(--white);
+    font-family: sans-serif;
+}
 
 a {
+    
     text-decoration: none;
 }
 
