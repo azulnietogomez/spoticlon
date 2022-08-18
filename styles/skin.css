@@ -1,0 +1,15 @@
+header {
+    background-color: var(--dark);
+}
+
+
+.burger-btn {
+    background-image: url(../assets/menu.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    outline: none; 
+    cursor: pointer;
+}
