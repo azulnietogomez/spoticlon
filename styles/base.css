@@ -3,7 +3,7 @@
     --green: #1ED760;
     --pink: #993399;
     --blue: #2941AB;
-    --shiny-blue: #0000EE;
+    --shiny-blue: #0D72EA;
     --grey: #919496;
     --light-grey: #efefef;
     --mid-grey: #222326;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
 }
 
 

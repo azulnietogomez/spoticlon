@@ -145,3 +145,119 @@ main {
     color: var(--dark);
     background-color: var(--light-grey);
 }
+
+
+.chose-plan-title {
+    font-size: 2.8rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.chose-plan-subtitle {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.plan-container {
+    background-color: var(--white);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+
+.try-terms {
+    margin: 10px 0 5px 0;
+    font-size: 1.8rem;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+
+.plan-accounts {
+    font-size: 1.6rem;
+
+}
+
+.promo-tag {
+    margin: 0px 4px 10px 0px;
+    padding: 4px 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: var(--shiny-blue);
+    color: var(--white);
+    border-radius: 4px;;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    -ms-border-radius: 4;
+    -o-border-radius: 4;
+}
+
+
+.pay-tag {
+    margin: 0px 4px 10px 0px;
+    padding: 4px 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--shiny-blue);
+    border: solid 1px var(--shiny-blue);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.plan-title {
+    font-size: 2.4rem;
+}
+
+
+.start-plan-btn {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+
+.separator { 
+    width: 100%;
+    height: 1px;
+    align-self: center;
+    margin: 20px 0px 30px;
+    border-top: solid 0.5px var(--dark-grey);
+    border-bottom: solid 0.5px var(--light-grey);
+    border-right: solid 0.5px var(--light-grey);
+    border-left: solid 0.5px var(--dark-grey);
+}
+
+.plan-benefits {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    list-style: none;
+}
+
+.plan-benefits li {
+    line-height: 2rem;
+    margin-bottom: 15px;
+}
+
+.plan-benefits li::before {
+    content: "✓  ";
+}
+
+.legal-terms {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.legal-terms a {
+    text-decoration: underline;
+}
