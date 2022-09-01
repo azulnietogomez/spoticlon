@@ -239,7 +239,7 @@ main {
 
 .plan-benefits {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 1.6rem;
     list-style: none;
 }
@@ -260,4 +260,69 @@ main {
 
 .legal-terms a {
     text-decoration: underline;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--white)
+}
+
+.footer-list-title {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--grey);
+    text-transform: uppercase;
+}
+
+.footer-list {
+    list-style: none;
+    line-height: 2.5;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.social-media--icon {
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+    -ms-transition: 200ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+}
+
+.social-media--icon span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--mid-grey);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.social-media--icon:hover, .footer-list li a:hover, .legal-link:hover {
+    cursor: pointer;
+    color: var(--green);
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+    -ms-transition: 200ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+}
+
+.contry-name {
+    margin-bottom: 15px;
 }
