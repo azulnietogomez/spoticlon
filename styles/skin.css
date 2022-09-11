@@ -3,6 +3,11 @@ header {
 }
 
 
+.header-logo img {
+    width: 89px;
+}
+
+
 .burger-btn {
     background-image: url(../assets/menu.svg);
     background-size: cover;
@@ -186,6 +191,12 @@ main {
 
 }
 
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .promo-tag {
     margin: 0px 4px 10px 0px;
     padding: 4px 8px;
@@ -267,6 +278,27 @@ footer {
     color: var(--white)
 }
 
+.footer-logo {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footer-logo img {
+    width: 79px;
+}
+
+.footer-list {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 50px ;
+}
+
+.footer-list__links {
+    margin-bottom: 120px;
+}
+
+
 .footer-list-title {
     margin-bottom: 20px;
     font-size: 1.2rem;
@@ -286,6 +318,16 @@ footer {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+
+.social-media {
+    display: flex;
+    width: 100%;
+    min-height: 44px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
 
 .social-media--icon {
     transition: 200ms ease-in-out;
@@ -321,6 +363,13 @@ footer {
     -moz-transition: 200ms ease-in-out;
     -ms-transition: 200ms ease-in-out;
     -o-transition: 200ms ease-in-out;
+}
+
+.legal-link {
+    margin: 0px 15px 20px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey);
 }
 
 .contry-name {
